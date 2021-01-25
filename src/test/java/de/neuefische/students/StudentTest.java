@@ -18,9 +18,9 @@ public class StudentTest {
     }
     private static Stream<Arguments> studentTest(){
         return Stream.of(
-                Arguments.of("Peter","Immel",47064,new Student("Peter","Immel",47064)),
-                Arguments.of("Horst","Oden",2118950, new Student("Horst","Oden",2118950)),
-                Arguments.of("Tamara","Itte",2119674, new Student("Tamara","Itte",2119674))
+                Arguments.of("Peter","Gross",47064,new Student("Peter","Gross",47064)),
+                Arguments.of("Horst","Klein",2118950, new Student("Horst","Klein",2118950)),
+                Arguments.of("Tamara","Riesig",2119674, new Student("Tamara","Riesig",2119674))
         );
     }
 }
