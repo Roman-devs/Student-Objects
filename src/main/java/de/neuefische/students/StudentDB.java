@@ -31,4 +31,9 @@ public class StudentDB {
     public String toString() {
         return Arrays.toString(students);
     }
+
+    // random - Method
+    public Student getRandomStudent(){
+        return this.students[(int)(Math.random() * students.length)];
+    }
 }
